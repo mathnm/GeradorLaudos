@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="294.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeraLaudo.ECFsController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="20.0" layoutY="156.0" text="ECFs">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="16.0" prefWidth="412.0">
+                     <children>
+                        <CheckBox fx:id="ckBematech" mnemonicParsing="false" text="Bematech">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <CheckBox fx:id="ckDaruma" mnemonicParsing="false" text="Daruma Automação">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckElgin" layoutX="10.0" layoutY="182.0" mnemonicParsing="false" text="Elgin">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckEpson" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" text="Epson">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckSweda" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" text="Sweda">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckZPM" layoutX="10.0" layoutY="233.0" mnemonicParsing="false" text="ZPM">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <HBox prefHeight="17.0" prefWidth="437.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="49.0" text="Marca:">
+                           <HBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="txtEcfMarca">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label layoutX="20.0" layoutY="10.0" prefHeight="17.0" prefWidth="66.0" text="Modelo:">
+                           <HBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="txtEcfModelo" layoutX="69.0" layoutY="10.0">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" onAction="#cadastraEcf" prefHeight="25.0" prefWidth="103.0" text="Salvar">
+                     <VBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

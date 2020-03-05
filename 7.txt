@@ -1,0 +1,19 @@
+DADOS DA EMPRESA: Empresa Final | 87654321/0001-99 | 987654321 | Rua Final | 999 | Bairro Final |  | Cidade Final | UF | 88888-000 | Responsável Final | 522.806.169-04 | 999961162 | 36463215 | emailfinal
+
+DADOS DO SISTEMA: 9.9 | SistemaFinal | C++ | Oracle | MacOS | Desenvolvimento: Exclusivo Próprio | Funcionamento: Exclusivamente Stand Alone | Geração Sped:Pelo PAF-ECF | Concomitante: Sim | DAV: Não | Pré-venda:Não | Conta Cliente: Não | DAV emitido sem impressão: Não | DAV impresso em ECF: Não | DAV não fiscal: Não | Tratamento queda de energia: Recuperação de Dados | NF-e: Sim | Perfil V: Sim | Perfil T: Sim | Perfil W: Sim
+
+DADOS DO LAUDO: 02.06 | 22/11/2018 | 2/11/2018 | 02.02 | Acompanhante Final | 222222 | StarLock | SLML24 | Declaração: Não
+
+APLICAÇÕES: Transporte | Restaurante com balança | Demais atividades | 
+
+SISTEMA DE RETAGUARDA:  |  |  |  |  | 
+
+SISTEMA PED:  |  |  |  |  | Tipo: NF-e
+
+ECFs: Bematech: Sim | Daruma: Não | Elgin: Sim | Epson: Não | Sweda: Não | ZPM: Não
+
+ARQIVOS AUTENTICADOS: arquivo final	as32d1a3sd213ds2  | Txt: txt final | MD5 Cupom: ads32as1 | Executável principal: exe final | MD5 Executável: 32a1d32a1s
+
+OBSERVAÇÕES: 
+
+INCONSISTÊNCIAS: 

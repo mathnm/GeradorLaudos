@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="469.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeraLaudo.SistemaController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <HBox BorderPane.alignment="CENTER">
+               <children>
+                  <VBox prefHeight="555.0" prefWidth="307.0">
+                     <children>
+                        <HBox prefHeight="17.0" prefWidth="187.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="85.0" text="Versão:">
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="50.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="txtVersaoPaf" prefHeight="17.0" prefWidth="151.0">
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="20.0" prefHeight="17.0" prefWidth="187.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="80.0" text="Nome:">
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="50.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="txtNomePaf" prefHeight="17.0" prefWidth="151.0">
+                                 <HBox.margin>
+                                    <Insets left="13.0" />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="7.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="44.0" prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="112.0" text="Linguagem:">
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ComboBox fx:id="cbLinguagem" prefHeight="22.0" prefWidth="142.0">
+                                 <padding>
+                                    <Insets bottom="-3.0" left="35.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </ComboBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="68.0" prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="112.0" text="BD:">
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ComboBox fx:id="cbBD" prefHeight="22.0" prefWidth="144.0">
+                                 <padding>
+                                    <Insets bottom="-3.0" left="35.0" />
+                                 </padding>
+                              </ComboBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="93.0" prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="111.0" text="SO:">
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ComboBox fx:id="cbSO" prefHeight="22.0" prefWidth="142.0">
+                                 <padding>
+                                    <Insets bottom="-3.0" left="35.0" />
+                                 </padding>
+                              </ComboBox>
+                           </children>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label text="Desenvolvimento">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdComercializavel" mnemonicParsing="false" text="Comercializável">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Desenvolvimento" />
+                                 </toggleGroup>
+                              </RadioButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="10.0" top="3.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdExclProprio" mnemonicParsing="false" text="Exclusivo Próprio" toggleGroup="$Desenvolvimento">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdExclTercerizado" mnemonicParsing="false" text="Exclusivo Tercerizado" toggleGroup="$Desenvolvimento">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label layoutX="20.0" layoutY="156.0" text="Funcionamento">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdStandAlone" mnemonicParsing="false" text="Exclusivamente Stand Alone">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Funcionamento" />
+                                 </toggleGroup>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdRede" mnemonicParsing="false" text="Em Rede" toggleGroup="$Funcionamento">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdParametrizavel" mnemonicParsing="false" text="Parametrizável" toggleGroup="$Funcionamento">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label text="Geração EFD/SPED:">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="rdPeloPaf" mnemonicParsing="false" text="Pelo PAF-ECF">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="GeracaoSped" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rdPeloSG" mnemonicParsing="false" text="Pelo Sistema de Retaguarda" toggleGroup="$GeracaoSped">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="rdPeloPED" mnemonicParsing="false" text="Pelo sistema PED ou EFD" toggleGroup="$GeracaoSped">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Separator>
+                  <VBox prefHeight="431.0" prefWidth="412.0">
+                     <children>
+                        <Label text="Integração">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdComSG" mnemonicParsing="false" text="Com sistema de gestão ou retaguarda">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Integracao" />
+                                 </toggleGroup>
+                              </RadioButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="10.0" top="3.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdComPED" mnemonicParsing="false" text="Com sistema PED" toggleGroup="$Integracao">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdComAmbos" mnemonicParsing="false" text="Com ambos" toggleGroup="$Integracao">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="85.0" prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdNaoIntegrado" mnemonicParsing="false" text="Não integrado" toggleGroup="$Integracao">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label layoutX="20.0" layoutY="156.0" text="Impressão Item">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="16.0" prefWidth="412.0">
+                           <children>
+                              <CheckBox fx:id="ckConcomitante" mnemonicParsing="false" text="Concomitante">
+                                 <padding>
+                                    <Insets bottom="5.0" left="10.0" />
+                                 </padding>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                        <CheckBox fx:id="ckDAV" mnemonicParsing="false" text="Não concomitante, com emissão de DAV">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <CheckBox fx:id="ckPV" layoutX="10.0" layoutY="182.0" mnemonicParsing="false" text="Não concomitante com controle de PV">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <CheckBox fx:id="ckContaCliente" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" text="Não concomitante com controle de conta de cliente">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <CheckBox fx:id="ckDavSemImpr" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" text="DAV - emitido sem possibilidade de impressão">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <CheckBox fx:id="ckDavNaoFiscal" layoutX="10.0" layoutY="233.0" mnemonicParsing="false" text="DAV - impresso em impressora não fiscal">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <CheckBox fx:id="ckDavECF" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" text="DAV - impresso em ECF">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label text="Tratamento queda de energia">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="rdRecupDados" mnemonicParsing="false" text="Recuperação de dados">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="TratamentoQueda" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rdCancelamento" mnemonicParsing="false" text="Cancelamento automático" toggleGroup="$TratamentoQueda">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="rdBloqueio" mnemonicParsing="false" text="Bloqueio de funções" toggleGroup="$TratamentoQueda">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <VBox layoutX="256.0" layoutY="10.0" prefHeight="431.0" prefWidth="197.0">
+                     <children>
+                        <Label text="NF-e">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdNfeSim" mnemonicParsing="false" text="Sim">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="NFe" />
+                                 </toggleGroup>
+                              </RadioButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="10.0" top="3.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="25.0" prefWidth="225.0">
+                           <children>
+                              <RadioButton fx:id="rdNfeNao" mnemonicParsing="false" text="Não" toggleGroup="$NFe">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label layoutX="20.0" layoutY="156.0" text="Perfis">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <CheckBox fx:id="ckV" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" text="V">
+                           <padding>
+                              <Insets bottom="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="ckW" layoutX="10.0" layoutY="233.0" mnemonicParsing="false" text="W">
+                           <padding>
+                              <Insets bottom="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="ckT" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" text="T">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <Button mnemonicParsing="false" onAction="#cadastraSistema" text="Salvar">
+                           <VBox.margin>
+                              <Insets left="50.0" top="20.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

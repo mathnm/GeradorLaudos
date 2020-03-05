@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeraLaudo.AplicacoesController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="20.0" layoutY="156.0" text="Aplicações especiais">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="16.0" prefWidth="412.0">
+                     <children>
+                        <CheckBox fx:id="ckPedagio" mnemonicParsing="false" text="Posto de pedágio">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" />
+                           </padding>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <CheckBox fx:id="ckTranspPassageiro" mnemonicParsing="false" text="Transporte de passageiros">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckFarmacia" layoutX="10.0" layoutY="182.0" mnemonicParsing="false" text="Farmácia de manipulação">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckDavOs" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" text="Oficina de conserto com DAV-OS">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckOficinaConsContaCliente" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" text="Oficina de conserto com conta de cliente">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckRestComBalanca" layoutX="10.0" layoutY="233.0" mnemonicParsing="false" text="Bar, restaurante e estabelecimento similar com utilização de ECF normal e balança interligada">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckRestSemBalanca" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" text="Bar, restaurante e estabelecimento similar com utilização de ECF normal sem balança interligada">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckPostoComBombas" layoutX="10.0" layoutY="164.0" mnemonicParsing="false" text="Posto revendedor de combustível com sistema de interligação de bombas">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckPostoSemBombas" layoutX="10.0" layoutY="186.0" mnemonicParsing="false" text="Posto revendedor de combustível sem sistema de interligação de bombas">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckEstacionamento" layoutX="10.0" layoutY="208.0" mnemonicParsing="false" text="Estacionamento, moteis e similares que pratiquem o controle de tráfego de veículos">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckCinema" layoutX="10.0" layoutY="230.0" mnemonicParsing="false" text="Prestador de serviço de cinema, espetáculos ou similiares">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckDemaisAtvd" layoutX="10.0" layoutY="252.0" mnemonicParsing="false" text="Demais atividades">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <CheckBox fx:id="ckSimplesNacional" layoutX="10.0" layoutY="274.0" mnemonicParsing="false" text="Estabelecimento enquadrado no simples nacional (art. 5º do ato cotepe da ER-PAF-ECF)">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <Button mnemonicParsing="false" onAction="#aplicacoes" prefHeight="25.0" prefWidth="103.0" text="Salvar">
+                     <VBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

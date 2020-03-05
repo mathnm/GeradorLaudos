@@ -1,0 +1,20 @@
+DADOS DA EMPRESA: Matheus Sistemas | 12.345.678/0001-12 | 1234568790 | Colombo Machado Salles | 574 | Progresso | Sala 02 | Laguna | SC | 88790-000 | Matheus Nunes Machado | 067.093.329-50 | (48) 99952-9878 | (48) 3644-3617 | matheusnuma@gmail.com
+
+DADOS DO SISTEMA: 1.0 | MatheusPAF | Java | SQLite | Windows | Desenvolvimento: Comercializável | Funcionamento: Em Rede | Geração Sped:Pelo PAF-ECF | Concomitante: Sim | DAV: Sim | Pré-venda:Sim | Conta Cliente: Não | DAV emitido sem impressão: Não | DAV impresso em ECF: Sim | DAV não fiscal: Não | Tratamento queda de energia: Cancelamento automático | NF-e: Sim | Perfil V: Sim | Perfil T: Não | Perfil W: Não
+
+DADOS DO LAUDO: 02.06 | 22/11/2018 | 22/11/2018 | 02.02 | Matheus Machado | 6077781 | StarLock | SLML24 | Declaração: Sim
+
+APLICAÇÕES: DAV-OS | Restaurante com balança | Demais atividades | 
+
+SISTEMA DE RETAGUARDA: RetaguardaPAF | Matheus Sistemas | 12.345.678/0001-12 | retaguardapaf.exe | asfdasd91as951a65 | XVIII
+
+SISTEMA PED: Matheus Sistemas | 12.345.678/0001-12 | pedpaf.exe | 58s4ad98as5196a8 | Função do sistema ped | Tipo: NF-e
+
+ECFs: Bematech: Sim | Daruma: Sim | Elgin: Sim | Epson: Sim | Sweda: Não | ZPM: Não
+
+ARQIVOS AUTENTICADOS: matheuspaf.exe ad984as98d1651
+md5.txt 65ads16a5s1d6a51s | Txt: md5.txt | MD5 Cupom: 65ads16a5s1d6a51s | Executável principal: matheuspaf.exe | MD5 Executável: ad984as98d1651
+
+OBSERVAÇÕES: Nenhuma observação.
+
+INCONSISTÊNCIAS: Nenhuma inconsistência.

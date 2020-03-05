@@ -1,0 +1,21 @@
+DADOS DA EMPRESA: Matheus LTDA | 067093329/0001-01 | Isento | Colombo Machado Salles | 574 | Progresso |  | Laguna | SC | 88790-000 | Matheus Nunes Machado | 06709332950 | 48999529878 | 36443617 | matheusnuma@gmail.com
+
+DADOS DO SISTEMA: 1.0 | Matheus System | Java | PostgreSQL | Windows | Desenvolvimento: Comercializável | Funcionamento: Em Rede | Geração Sped:Pelo PAF-ECF | Concomitante: Sim | DAV: Sim | Pré-venda:Sim | Conta Cliente: Não | DAV emitido sem impressão: Não | DAV impresso em ECF: Sim | DAV não fiscal: Sim | Tratamento queda de energia: Recuperação de Dados | NF-e: Sim | Perfil V: Sim | Perfil T: Não | Perfil W: Não
+
+DADOS DO LAUDO: 02.06 | 03-03-2020 | 04-03-2020 | 02.02 | Matheus Nunes Machado | 123456789 | StarLock | SLML24 | Declaração: Não
+
+APLICAÇÕES: Demais atividades | 
+
+SISTEMA DE RETAGUARDA: SystemNF-e | Matheus LTDA | 067093329/0001-01 | sysnfe.exe | 6sa51d6as2d62sa19as15 | XXVIII
+
+SISTEMA PED:  |  |  |  |  | Tipo: NF-e
+
+ECFs: Bematech: Sim | Daruma: Sim | Elgin: Não | Epson: Sim | Sweda: Não | ZPM: Não
+
+ARQIVOS AUTENTICADOS: 65as1d9as51d6d5s196as
+5sad195as51s95as19d51sa
+9s5d9as1d98as1d951das951d | Txt: md5.txt | MD5 Cupom: xz95c1951a95d1q9q9q9 | Executável principal: syspaf.exe | MD5 Executável: wqe7qw98e7q9w9e87qw98
+
+OBSERVAÇÕES: Nenhuma Obs.
+
+INCONSISTÊNCIAS: Nenhuma Inc.
