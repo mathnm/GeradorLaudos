@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="424.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeraLaudo.LaudoController">
+<AnchorPane prefHeight="424.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeraLaudo.LaudoController">
    <children>
       <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <center>
@@ -79,7 +79,7 @@
                                     <Insets left="10.0" right="50.0" />
                                  </HBox.margin>
                               </Label>
-                              <TextField fx:id="txtRoteiro" editable="false" prefHeight="17.0" prefWidth="158.0" text="02.02">
+                              <TextField fx:id="txtRoteiro" prefHeight="17.0" prefWidth="158.0" text="02.02">
                                  <HBox.margin>
                                     <Insets left="10.0" />
                                  </HBox.margin>
@@ -130,7 +130,7 @@
                                     <Insets left="10.0" />
                                  </HBox.margin>
                               </Label>
-                              <TextField fx:id="txtMarcaEnvelope" editable="false" prefHeight="17.0" prefWidth="157.0" text="StarLock">
+                              <TextField fx:id="txtMarcaEnvelope" prefHeight="17.0" prefWidth="157.0" text="StarLock">
                                  <HBox.margin>
                                     <Insets left="10.0" />
                                  </HBox.margin>
@@ -147,7 +147,7 @@
                                     <Insets left="10.0" />
                                  </HBox.margin>
                               </Label>
-                              <TextField fx:id="txtModeloEnvelope" editable="false" prefHeight="17.0" prefWidth="157.0" text="SLML24">
+                              <TextField fx:id="txtModeloEnvelope" prefHeight="17.0" prefWidth="157.0" text="SLML24">
                                  <HBox.margin>
                                     <Insets left="10.0" />
                                  </HBox.margin>
